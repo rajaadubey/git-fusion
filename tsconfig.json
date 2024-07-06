@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es2017",  // or whichever target you prefer
+      "module": "ES2022",
+      "strict": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist",  // Specify your output directory for compiled files
+      "rootDir": "./src",  // Specify your source directory
+      "declaration": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
+  
